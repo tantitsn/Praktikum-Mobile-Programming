@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip">
+    
+    <!-- Name Label -->
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginTop="40dip"
+        android:layout_marginBottom="10dip"/>
+
+   	<!-- Email Label -->
+    <TextView
+        android:id="@+id/lblEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="40dip"/>
+    
+    <!-- Button to show session data -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIM"
+        android:id="@+id/edtNim" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:id="@+id/edtNama" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btnSubmit"
+        android:layout_gravity="center_horizontal" />
+
+    <Button android:id="@+id/btnLogout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"/>
+
+</LinearLayout>
